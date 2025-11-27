@@ -28,7 +28,7 @@ I created this project to analyze network packets using Arkime, improving our ab
 
 After finishing the download, install Arkime. Next, perform some basic configurations, such as creating a password and enabling MaxMind. MaxMind enriches IP addresses by providing geolocation data, which enhances the analysis.
 
-Arkime is stored unter the /opt/ directory.
+Arkime is stored under the /opt/ directory.
 
 <img width="1854" height="956" alt="image" src="https://github.com/user-attachments/assets/5ec8f0dd-0ab2-4766-81dd-06de90ea3d60" />
 
@@ -50,16 +50,19 @@ This is your server user password. I have used the same username, so don’t con
 
 <img width="840" height="277" alt="image" src="https://github.com/user-attachments/assets/cec7c28f-31ec-4a39-9e98-0c08f27fecf9" />
 
-Run the command shown in the highlighted image. Once the configuration is complete, you will be able to access Arkime using your IP address on port 8005. Before that, however, you need to create an account on MaxMind and obtain both the license key and the account ID.
+Run the command shown in the image. Once the configuration is complete, you will be able to access Arkime using your IP address on port 8005. Before that, you need to create an account on MaxMind and obtain both the license key and the account ID.
 
 <img width="1903" height="583" alt="image" src="https://github.com/user-attachments/assets/87996600-7abb-4c3a-9d06-5a6f3809d370" />
 
-
-Install GeoIP, Run : 
+To install GeoIP, run : 
 
             sudo apt install geoipupdate
 
-Go to the **/etc/GeoIP.conf** Change the Configure as Highlight, And RUn :
+Go to the **/etc/GeoIP.conf** Change the Configure as Highlight,
+
+<img width="1128" height="367" alt="image" src="https://github.com/user-attachments/assets/d7236dd3-a4ef-4370-bfb3-87581189a0a4" />
+
+And Run :
 
             sudo geoipupdate
 
