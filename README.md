@@ -1,4 +1,4 @@
-# Network-Packet-Indexer
+# Network Packet Indexer
 
 ## Objective 
 
