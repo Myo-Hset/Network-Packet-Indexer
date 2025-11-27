@@ -2,7 +2,7 @@
 
 ## Objective 
 
-I created this project to analyze network packets using Wireshark and Arkime, enhancing our ability to detect and analyze PCAP captures in a home lab.
+I created this project to analyze network packets using Arkime, improving our ability to detect and analyze PCAP captures in a home lab.
 
 ### Skills Learned
 
