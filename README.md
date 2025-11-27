@@ -43,7 +43,21 @@ Run the command as hilighted Image. Once the configuration is complete, I should
 
 Go to the **/etc/GeoIP.conf** Change the Configure as Highledtd
 
-Step - 2 Enrich the data using OSINT tools built into Arkime
+Step - 2 , Ingesting The PCAP files
+
+I will ingesting the PCAP files form (https://www.malware-traffic-analysis.net/)
+for Analysing
+
+<img>
+
+After Ingesting it. Let's see what we can see on Arkime 
+
+
+
+<IMG>
+
+
+Step - 3 Enrich the data using OSINT tools built into Arkime
 
 We need to enable service in Arkime
 
