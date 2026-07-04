@@ -22,7 +22,7 @@ I created this project to analyze network packets using Arkime, improving our ab
 ### Step-1 - Setting Up the Arkime server
 
 - After installing Ubuntu Server in a virtual machine, I established an SSH connection using PowerShell. This setup makes it easier to copy and paste commands.
-- Download Arikme machine:
+- Download Arkime machine:
 
       wget https://github.com/arkime/arkime/releases/download/v5.1.2/arkime_5.1.2-1.ubuntu2204_amd64.deb
 
@@ -32,7 +32,7 @@ Arkime is stored under the /opt/ directory.
 
 <img width="1854" height="956" alt="image" src="https://github.com/user-attachments/assets/5ec8f0dd-0ab2-4766-81dd-06de90ea3d60" />
 
-Then Go to :  **sudo /opt/arkime/bin/Configure**  - Add you network ineterface. 
+Then Go to :  **sudo /opt/arkime/bin/Configure**  - Add you network interface. 
 
 <img width="948" height="85" alt="image" src="https://github.com/user-attachments/assets/f7b29a5c-05a4-45aa-9d9c-295a5caad2e5" />
 
@@ -70,8 +70,8 @@ And Run :
 
 ### Step - 2 , Ingesting The PCAP file
 
-I will ingesting the PCAP files form (https://www.malware-traffic-analysis.net/)
-for Analysing
+I will ingesting the PCAP files from (https://www.malware-traffic-analysis.net/)
+for Analyzing
 
 <img width="1876" height="475" alt="image" src="https://github.com/user-attachments/assets/f7085819-4ea8-47fb-9c4f-781b88249238" />
 
@@ -102,7 +102,7 @@ Now we can clearly see what the PCAP looks like.
 
 We need to enable **cont3xt** service in Arkime
 
-      udo /opt/arkime/bin/Configure --cont3xt 
+      sudo /opt/arkime/bin/Configure --cont3xt 
       
       sudo nano /opt/arkime/etc/cont3xt.ini
 
@@ -112,12 +112,12 @@ Modify the highlighted configuration and restart the Arkime service :
 
       systemctl restart arkimecont3xt.service 
       
-Protal access on localhost:3218
+Portal access on localhost:3218
 
 <img width="1908" height="926" alt="image" src="https://github.com/user-attachments/assets/782f11c0-fb90-4769-95b1-ac220d18025f" />
 
 To integrate OSINT with Arkime, you need an API key, which is issued after creating an account with one of the supported OSINT tools.
-I have connected Arkime with VirusTotal, allowing me to check the VirusTotal score and view related information directly within Arkime cont3nt.
+I have connected Arkime with VirusTotal, allowing me to check the VirusTotal score and view related information directly within Arkime Cont3xt.
 
 <img width="1909" height="918" alt="image" src="https://github.com/user-attachments/assets/915c8be3-65e8-4402-b401-897ec4514358" />
 
